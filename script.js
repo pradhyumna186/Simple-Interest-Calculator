@@ -1,6 +1,6 @@
 function compute() {
     
-    //setting variables in the function
+    //Here we set variables in the function
     var principal = document.getElementById("principal").value;
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
@@ -15,16 +15,14 @@ function compute() {
     result.innerHTML = "If you deposit <span class='highlight'>"+ principal + "</span> ,<br> at an interest rate of <span class='highlight'>" + rate + "</span>% <br> You will receive an amount of <span class='highlight'>" + interest + "</span>, <br> in the year <span class='highlight'>" + futureyear +"</span>" 
     }
     else{ 
-    // Validation shows alert if input is zero or negative number
+    // Validation shows an alert if the input is zero or negative number
         alert("Enter a positive number");
         principal.focus();
         return false;
-    
       } 
     }
 function setSliderLabel() {
     var rate = document.getElementById("rate").value;
     document.getElementById("rate_span").innerHTML = rate + "%";
  }      
-
         
