@@ -1,2 +1,2 @@
 # coding-project-template
-#Link - https://pradhyumna186.github.io/vftvk-Simple-Interest-Calculator/
+#Link - https://pradhyumna186.github.io/Simple-Interest-Calculator/
